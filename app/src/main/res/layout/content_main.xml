@@ -8,48 +8,49 @@
     tools:context=".MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Siema Bartas!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.178"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.036" />
-
     <LinearLayout
-        android:layout_width="237dp"
-        android:layout_height="288dp"
+        android:layout_width="311dp"
+        android:layout_height="295dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="89dp"
-        tools:layout_editor_absoluteY="82dp">
-
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Witaj Bartas" />
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="96dp">
 
         <EditText
             android:id="@+id/editText"
             android:layout_width="wrap_content"
             android:layout_height="20dp"
             android:layout_weight="1"
-            android:hint="imię"
             android:ems="10"
+            android:hint="imię"
             android:inputType="textPersonName"
-            android:text="Name" />
+            android:text="wpisz nazwę przystanku" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="imię"
+            android:inputType="textPersonName"
+            android:text="wpisz nr lini" />
 
         <Button
-            android:id="@+id/button2"
-            android:layout_width="210dp"
+            android:id="@+id/przycisk1"
+            android:layout_width="match_parent"
             android:layout_height="59dp"
             android:layout_weight="1"
-            android:text="Nie klikaj Bartas" />
+            android:onClick="click"
+            android:text="@string/szukaj" />
 
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="82dp"
+        android:layout_height="66dp"
+        app:srcCompat="@drawable/peka"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
 
 </android.support.constraint.ConstraintLayout>

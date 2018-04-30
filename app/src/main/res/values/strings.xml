@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="action_settings">Settings</string>
-    <string name="Nie klikaj Bartas">Nie klikaj Bartas</string>
+    <string name="nie_klikaj_bartas">Nie klikaj Bartas</string>
+    <string name="szukaj">Szukaj</string>
+    <string name="title_activity_przycisk1">Przycisk1Activity</string>
+    <string name="title_activity_szukaj">szukajActivity</string>
 </resources>
